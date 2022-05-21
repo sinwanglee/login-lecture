@@ -14,3 +14,5 @@ app.use(express.static(`${__dirname}/src/public`));
 app.use("/", home);
 
 module.exports = app;
+
+// 다음에 우리밋 15번 영상부터 시청
