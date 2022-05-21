@@ -19,4 +19,4 @@ app.use("/", home);
 
 module.exports = app;
 
-// 23번 부터 시청
+// 26번 부터 시청

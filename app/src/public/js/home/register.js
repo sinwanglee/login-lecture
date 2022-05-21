@@ -9,6 +9,8 @@ const btn = document.querySelector("#button");
 btn.addEventListener("click", register);
 
 function register() {
+  if (!id.value) return alert("아이디를 입력하세요");
+  if (password.value != confirmPassword.value) return alert("비밀번호가 일치하지 않습니다.");
   const req = {
     id: id.value,
     name: name.value,
