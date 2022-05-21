@@ -18,3 +18,5 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use("/", home);
 
 module.exports = app;
+
+// 23번 부터 시청
