@@ -24,6 +24,10 @@ class User {
     }
     return res;
   }
+
+  register() {
+    UserStorage.save(this.body);
+  }
 }
 
 module.exports = User;
